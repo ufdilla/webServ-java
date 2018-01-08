@@ -9,4 +9,4 @@ import javax.jws.soap.SOAPBinding.Style;
 @SOAPBinding(style = Style.RPC)  
 public interface HelloWorld{  
     @WebMethod String getHelloWorldAsString(String name);  
-}  
+}
